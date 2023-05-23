@@ -1,0 +1,66 @@
+html{
+    scroll-behavior: smooth;
+}
+
+/*-------Header-------*/
+header{
+    height:17vh;
+    width: 100%;
+    align-items: center;
+    display: flex; /*hizala*/
+    justify-content: space-between;
+    /*background-color:#995731;*/
+    
+       
+}
+/*-------Logo-------*/
+.logo{ 
+    margin-left: 10px;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.logo img{
+    height: 100px;
+    padding: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: -5px;
+    margin-top: 0;
+    cursor: pointer;
+    border-radius: 40px;
+    
+    
+}
+
+/*-------Menü-------*/
+.nav ul li{
+    list-style: none;
+    display: flex;
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: rgb(224, 183, 129);
+    border-radius: 20px;
+    
+}
+
+.nav ul li a{
+    color:white;
+    padding: 0px 45px;
+    text-decoration: none; /*çizgileri sil*/
+    font-size: 18px;
+    
+}
+
+.nav ul li a:hover{
+    color:#FFB185;
+    font-weight: bolder;
+    border-radius: 20px;
+    background-color: #800000;
+
+}  

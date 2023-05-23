@@ -1,0 +1,32 @@
+input[type=text], select, textarea {
+
+      width: 100%; 
+      padding: 12px; 
+      border: 1px solid #ccc; 
+      border-radius: 4px; 
+      box-sizing: border-box; 
+      margin-top: 6px; 
+      margin-bottom: 16px; 
+      resize: vertical 
+    }
+    
+    input[type=submit] {
+      background-color: #04AA6D;
+      color: white;
+      padding: 6px 20px;
+      border: 4px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    
+    input[type=submit]:hover {
+      background-color: #255255;
+    }
+    
+    
+    .container {
+      border-radius: 6px;
+      background-color: #FFB185;
+      padding: 40px;
+    }

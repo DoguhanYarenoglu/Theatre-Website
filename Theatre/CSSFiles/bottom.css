@@ -1,0 +1,51 @@
+.contents{
+    width: 100%;
+    position: absolute;
+    top: 1300px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    background: linear-gradient(to right, #B35837 0%, #e6a981 100%);
+    overflow: auto;
+
+}
+.row ul li{
+    list-style: none;
+    display: flex;
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+    
+}
+.row ul li a{
+    color:white;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 120px;
+    text-decoration: none; 
+    font-size: 17px;
+    
+}
+.row ul li a:hover{
+    color:#FFB185;
+    font-weight: bolder;
+
+}  
+
+.row .end{
+width:100%;
+color:white;
+font-size:15px;
+display: inline-block;
+display: flex;
+}
+#pid{
+    color: white;
+}
+
+

@@ -1,0 +1,39 @@
+.blocks{
+    position: absolute;
+    right: 0px;
+    width: 500px;
+    height: 50vh;
+    margin-right: 200px;
+}
+
+#aboutImg{
+    position: absolute;
+    left: 0px;
+    width: 500px;
+    height: 50vh;
+    margin-left: 200px;
+    
+}
+
+#aboutImg img{
+    float: left;
+    width: 500px;
+    height: 329px;
+    padding:0;
+    border-radius: 10%;
+    
+}
+
+.blocks h1, h3, p{
+    color: #800000;
+    text-shadow: 1px 1px 7px rgba(208, 96, 96, 0.8);
+    text-align: center;
+}
+
+.blocks h1{
+    font-size: 30px;
+}
+.blocks h3{
+    font-size: 25px;
+}
+

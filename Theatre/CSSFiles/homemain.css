@@ -1,0 +1,114 @@
+.contentshows{
+    width: 100%;
+    position: absolute;
+    top: 17%;
+    color: #FFB185;
+    text-align: center;
+    
+
+}
+
+.contentshows h1{
+    font-size: 70px;
+    text-align: left;   
+    margin-left: 215px;
+    text-shadow: 1px 1px 7px rgba(208, 96, 96, 0.8);
+}
+
+
+.Box{
+    padding: 0px;  
+    width: 1000px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.leftBox{
+    width: 300px;
+    height: 400px;
+    background: #800000;
+    margin-left: 0px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    justify-content: center;
+    border: 5px solid #FFB185;
+    border-radius: 10%;
+}
+.middleBox{
+    width: 300px;
+    height: 400px;
+    background: #800000;
+    margin: 5px;
+    padding: 5px;
+    border: 5px solid #FFB185;
+    border-radius: 10%;
+}
+.rightBox{
+    width: 300px;
+    height: 400px;
+    background: #800000;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 0px;
+    padding: 5px;
+    border: 5px solid #FFB185;
+    border-radius: 10%;
+}
+
+.float-l{
+    float: left;
+}
+.float-r{
+    float: right;
+}
+
+#rj img{
+    height: 170px;
+    padding: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: -5px;
+    margin-top: 0;
+    border-radius: 5%;
+   
+}
+#js img{
+    height: 170px;
+    padding: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: -5px;
+    margin-top: 0;
+    border-radius: 5%;
+   
+}
+#p img{
+    height: 170px;
+    padding: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: -5px;
+    margin-top: 0;
+    border-radius: 5%;
+   
+}
+.buttonStyle{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #FFFFFF !important;
+    font-size: 15px;
+    text-shadow: 2px 1px 2px #000000;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 1px solid #FFB185;
+    background: #FFB185;
+}
+.buttonStyle:hover {
+        color: #FFFFFF !important;
+        background: #705141;
+ }

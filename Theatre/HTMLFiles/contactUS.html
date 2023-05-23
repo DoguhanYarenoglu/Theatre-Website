@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <!--CSS files-->
+    <link rel="stylesheet" href="../CSSFiles/top.css" /> <!--nav-logo-->
+    <link rel="stylesheet" href="../CSSFiles/bg.css" /> <!--bg-->
+    <link rel = "stylesheet" href ="../CSSFiles/bottom.css" /> <!--Footer-->
+    <link rel = "stylesheet" href="../CSSFiles/contactUS.css"/> <!--main-->
+    
+    
+</head>
+
+<body>
+       <!--Header-->
+       <header>
+        <div class="logo">
+          <a href="home.html">
+            <!--logoya tıklayınca ana sayfaya git-->
+            <img src="../assets/images/l.jpg" />
+            <!--imageler geçici!-->
+          </a>
+        </div>
+  
+        <div class="nav">
+          <ul>
+            <li><a href="home.html"><strong>Home</strong></a></li>
+            <li><a href="theater.html"><strong>Theaters</strong></a></li>
+            <li><a href="events.html"><strong>Events</strong></a></li>
+            <!--event opsiyonel sayfa-->
+            <li><a href="booking.html"><strong>Reservation</strong></a></li>
+            <!--assignment1 sayfaları-->
+            <li><a href="aboutUS.html"><strong>About Us</strong></a></li>
+            <li><a href="contactUS.html"><strong>Contact</strong></a></li>
+          </ul>
+        </div>
+      </header>
+
+        <!--Main-->
+
+<div class="container">
+  <form action="contactUS.html"> 
+
+    <label for="fname">First Name</label><label id="requiredf">*</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+	
+	
+
+    <label for="lname">Last Name</label><label id="requiredl" >*</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="ymail">Mail</label><label id="requiredy">*</label>
+     <input type="text" id="ymail" name="mail" placeholder="mail...">
+	 <label for="birthday">Birthday:</label><label id="requiredb">*</label>
+    <input type="date" id="birthday" name="birthday"></br></br>
+
+    <label for="Share your ideas">Contact us</label>
+    <textarea id="contact" name="contact" placeholder="Share your ideas with us" style="height:200px"></textarea>
+	
+	
+	
+
+    <!--<input type="submit" value="Submit" onclick="checkForm()">-->
+	<button onclick="checkForm()">Submit</button> 
+
+
+  </form>
+</div>
+
+        <!--Footer-->
+    
+    <footer>
+      <div class = "contents">
+        <div class = "align">
+          <div class = "row">
+            <ul>
+              <li><div class = "pageItem1"><a href="home.html"><strong>Home</strong></a></div> </li>
+              <li><div class = "pageItem2"><a href="aboutUS.html"><strong>About</strong></a></div></li>
+              <li><div class = "pageItem3"><a href="contactUS.html"><strong>Contact</strong></a></div></li> <br>
+            </ul>
+          <div class="end">
+            <p id="pid">All rights reserved || Designed By: Group 6</p>
+            </div>
+        </div>
+        </div>
+      </div>
+    </footer>
+	
+	
+	
+<script src = "../Jsfiles/contactUS.js"></script>
+</body>
+</html>
